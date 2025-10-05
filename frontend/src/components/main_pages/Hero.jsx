@@ -170,7 +170,7 @@ export default function HeroSection() {
             </svg>
           </Link>
           <Link
-            to="/simulator"
+            to="/habitability-predictor"
             className="relative px-8 py-4 bg-transparent border-2 
             border-gray-500/60 hover:border-white/80
             rounded-2xl 
@@ -179,7 +179,7 @@ export default function HeroSection() {
             flex items-center justify-center gap-3 group overflow-hidden
             backdrop-blur-sm bg-white/5 hover:bg-white/10"
           >
-            <span className="relative z-10">Try Simulator</span>
+            <span className="relative z-10">See Astronauts</span>
             <motion.span 
               className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               initial={false}
