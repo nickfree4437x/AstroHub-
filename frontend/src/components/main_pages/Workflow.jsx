@@ -48,11 +48,11 @@ export default function HowItWorks() {
     },
     {
       id: 3,
-      icon: <FaFlask className="text-2xl sm:text-3xl" />,
-      title: "Simulate Survival",
-      desc: "Test habitability with survival simulations considering gravity, atmosphere, and radiation.",
-      color: "from-green-500 to-emerald-500",
-      gradient: "from-cyan-500 to-green-500"
+      icon: <FaUserAstronaut className="text-2xl sm:text-3xl" />,
+      title: "Astronaut Explorer",
+      desc: "Explore detailed astronaut profiles, their space missions, achievements, and contributions to humanity’s journey beyond Earth.",
+      color: "from-cyan-500 to-blue-500",
+      gradient: "from-blue-500 to-indigo-600"
     },
     {
       id: 4,
