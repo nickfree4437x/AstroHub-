@@ -49,7 +49,7 @@ const cards = [
   {
     id: "unique",
     title: "Why Unique?",
-    desc: "Planet Data Explorer, habitability scoring, AI reasearch assistant  & survival simulations—all in one platform.",
+    desc: "Planet Data Explorer, habitability scoring, AI reasearch assistant  & astronaut details in one platform.",
     target: "#unique-section",
     gradient: "from-cyan-500 to-green-500",
     icon: <UniqueIcon />
@@ -204,8 +204,8 @@ export default function AboutSection() {
           >
             Connecting humanity with the cosmos through{" "}
             <span className="text-purple-400 font-medium">AI</span>,{" "}
-            <span className="text-blue-400 font-medium">immersive 3D maps</span>, and{" "}
-            <span className="text-cyan-400 font-medium">interactive simulations</span>.
+            <span className="text-blue-400 font-medium">immersive 3D solar system</span>, and{" "}
+            <span className="text-cyan-400 font-medium">space mission details</span>.
           </motion.p>
         </motion.div>
       </div>
