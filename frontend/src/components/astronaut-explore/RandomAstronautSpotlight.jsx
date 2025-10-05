@@ -23,7 +23,7 @@ export default function RandomAstronautSpotlight({ count = 3, autoScroll = true,
       setLoading(true);
       try {
         const res = await fetch(
-          `${import.meta.env.VITE_API_URL || "http://localhost:4000/api/v1"}/astronauts/random-spotlight?count=${count}`
+          `${import.meta.env.VITE_API_URL || "https://astrohub-aqac.onrender.com/api/v1"}/astronauts/random-spotlight?count=${count}`
         );
         if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
         const data = await res.json();

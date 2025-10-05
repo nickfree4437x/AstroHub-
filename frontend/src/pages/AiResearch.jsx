@@ -198,7 +198,7 @@ export default function AIResearchAssistant() {
       let res, data;
       if (mode === "papers") {
         res = await fetch(
-          `http://localhost:4000/api/ai/papers?query=${encodeURIComponent(text)}`
+          `https://astrohub-aqac.onrender.com/api/ai/papers?query=${encodeURIComponent(text)}`
         );
         data = await res.json();
         setPapers(data.papers || []);
@@ -212,7 +212,7 @@ export default function AIResearchAssistant() {
           },
         ]);
       } else {
-        res = await fetch("http://localhost:4000/api/ai/query", {
+        res = await fetch("https://astrohub-aqac.onrender.com/api/ai/query", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ query: text, mode, language: "en" }),

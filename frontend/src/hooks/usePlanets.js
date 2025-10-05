@@ -7,7 +7,7 @@ export function usePlanets() {
   useEffect(() => {
     async function fetchPlanets() {
       try {
-        const res = await fetch("http://localhost:4000/api/v1/planets");
+        const res = await fetch("https://astrohub-aqac.onrender.com/api/v1/planets");
         const data = await res.json();
 
         console.log("🌍 API Response:", data);

@@ -1,5 +1,5 @@
 // src/lib/api.js
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:4000/api/v1";
+const API_BASE = import.meta.env.VITE_API_URL || "https://astrohub-aqac.onrender.com/api/v1";
 
 /* ------------------------------
    🔧 Common Fetch Helper

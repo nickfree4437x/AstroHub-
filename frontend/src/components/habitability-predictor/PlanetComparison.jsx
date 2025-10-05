@@ -68,7 +68,7 @@ export default function PlanetComparison({ planets }) {
     for (let planet of chosen) {
       try {
         const res = await axios.post(
-          "http://localhost:4000/api/habitability/predict",
+          "https://astrohub-aqac.onrender.com/api/habitability/predict",
           { name: planet.name }
         );
         predictions[planet.name] = res.data.habitability_score;

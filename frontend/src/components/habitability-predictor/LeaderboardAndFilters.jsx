@@ -12,7 +12,7 @@ const LeaderboardAndFilters = () => {
   useEffect(() => {
     const fetchPlanets = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/api/habitability/planets");
+        const res = await axios.get("https://astrohub-aqac.onrender.com/api/habitability/planets");
         setPlanets(res.data);
       } catch (err) {
         console.error("❌ Error fetching planets:", err.message);
