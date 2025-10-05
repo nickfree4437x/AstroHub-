@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white font-sans;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-800;
+}
+
+:root { color-scheme: dark; }
+.wire { @apply border border-dashed border-gray-700 rounded-xl; }
+.skel { @apply bg-gray-900/60 ring-1 ring-gray-800 rounded-2xl; }
+
+/* index.css */
+body {
+  background: radial-gradient(ellipse at bottom, #0b0c10 0%, #000000 100%);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+/* Add to your CSS (global.css or index.css) for custom animations */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
