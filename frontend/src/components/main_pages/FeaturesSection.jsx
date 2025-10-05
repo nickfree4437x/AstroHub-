@@ -10,6 +10,7 @@ import {
   Users,
   Gamepad2,
   Satellite,
+  Rocket 
 } from "lucide-react";
 
 const features = [
