@@ -42,12 +42,12 @@ const features = [
     gradient: "from-green-500 to-yellow-500"
   },
   {
-    id: "simulator",
-    icon: <Gamepad2 size={40} />,
-    title: "Survivability Simulator",
-    desc: "Can humans survive here? Test survival % with AI-driven simulations.",
-    gradient: "from-yellow-500 to-orange-500"
-  },
+  id: "missions",
+  icon: <Rocket size={40} />,
+  title: "Space Missions Explorer",
+  desc: "Discover and explore detailed insights about past, ongoing, and upcoming space missions from NASA and other agencies.",
+  gradient: "from-blue-500 to-purple-500"
+},
   {
     id: "missions",
     icon: <Satellite size={40} />,
