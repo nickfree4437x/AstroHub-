@@ -10,7 +10,7 @@ import {
   Users,
   Gamepad2,
   Satellite,
-  Rocket 
+  User2
 } from "lucide-react";
 
 const features = [
@@ -43,11 +43,11 @@ const features = [
     gradient: "from-green-500 to-yellow-500"
   },
   {
-  id: "missions",
-  icon: <Rocket size={40} />,
-  title: "Space Missions Explorer",
-  desc: "Discover and explore detailed insights about past, ongoing, and upcoming space missions from NASA and other agencies.",
-  gradient: "from-blue-500 to-purple-500"
+  id: "astronauts",
+  icon: <User2 size={40} />,
+  title: "Astronaut Explorer",
+  desc: "Explore detailed profiles of astronauts — their missions, experience, and contributions to space exploration.",
+  gradient: "from-cyan-500 to-indigo-500"
 },
   {
     id: "missions",
